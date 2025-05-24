@@ -35,12 +35,6 @@ Always eager to learn, collaborate, and contribute to open-source.
   <a href="https://www.typescriptlang.org/" target="_blank">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="TypeScript" width="40" height="40"/>
   </a>
-  <a href="https://en.wikipedia.org/wiki/COBOL" target="_blank">
-    <img src="https://yesicon.app/devicon-plain/cobol.svg" alt="COBOL" width="40" height="40"/>
-  </a>
-  <a href="https://en.wikipedia.org/wiki/VBScript" target="_blank">
-    <img src="https://www.numi.tech/software-logos/vbscript/vbscript.svg" alt="VBScript" width="40" height="40"/>
-  </a>
 </p>
 
 ---
