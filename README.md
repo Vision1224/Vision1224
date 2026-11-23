@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Damian Valencia</h1>
-<h3 align="center">I'm a passionate Full Stack Developer.</h3>
+<h3 align="center">Automation and Support Engineer</h3>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=Vision1224&label=Profile%20views&color=0e75b6&style=flat" alt="vision1224" />
@@ -9,9 +9,9 @@
 
 ### 👨‍💻 About Me
 
-I'm a Full Stack Developer passionate about building scalable web apps and automating everyday tasks.
-Currently focused on JavaScript, Python, and cloud infrastructure (AWS, Azure).
-Always eager to learn, collaborate, and contribute to open-source.
+I'm an automation and support engineer with 10 years of software experience. I build tools that keep work running reliably: job and data pipelines, security checks, and service monitoring.
+Right now I'm building multi-agent workflows with n8n and Claude, with a human review step before any outward action.
+Focused on Python, SQL, PowerShell, and cloud (AWS, Azure). Learning in public and open to collaboration.
 
 ---
 
