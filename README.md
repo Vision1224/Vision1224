@@ -1,145 +1,78 @@
 <h1 align="center">Hi 👋, I'm Damian Valencia</h1>
-<h3 align="center">Automation and Support Engineer</h3>
+<h3 align="center">Automation & Support Engineer · building AI agent systems with human review</h3>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Vision1224&label=Profile%20views&color=0e75b6&style=flat" alt="vision1224" />
+  <img src="https://img.shields.io/badge/Open%20to-Automation%20%7C%20AI%20Ops%20%7C%20Support%20Engineering-0e75b6?style=for-the-badge" alt="Open to roles" />
+  <img src="https://komarev.com/ghpvc/?username=Vision1224&label=Profile%20views&color=0e75b6&style=for-the-badge" alt="Profile views" />
 </p>
 
 ---
 
 ### 👨‍💻 About Me
 
-I'm an automation and support engineer with 10 years of software experience. I build tools that keep work running reliably: job and data pipelines, security checks, and service monitoring.
-Right now I'm building multi-agent workflows with n8n and Claude, with a human review step before any outward action.
-Focused on Python, SQL, PowerShell, and cloud (AWS, Azure). Learning in public and open to collaboration.
+- 10 years of software experience across support engineering, automation, and cloud.
+- I build tools that keep work running reliably: data and job pipelines, security checks, service monitoring, and reporting.
+- Interested in roles where automation and customer-facing engineering meet.
+
+### 🔭 Currently Building
+
+- **A multi-agent operations system:** work queues, quality gates before any outward action, daily health checks, and reports, scheduled with n8n.
+- **Human-in-the-loop AI workflows:** Claude-based agents with explicit approval steps, rest-day rules, and call and cost limits.
+
+### 🌱 Currently Learning
+
+![n8n](https://img.shields.io/badge/n8n-workflows-EA4B71?style=flat-square&logo=n8n&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-browser%20automation-2EAD33?style=flat-square&logo=playwright&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-tool%20servers-6B4FBB?style=flat-square)
+![LLM evals](https://img.shields.io/badge/LLM-evals%20%26%20cost%20tracking-412991?style=flat-square)
 
 ---
 
-### 🛠️ Languages & Tools
+### 🧰 Tech Stack
 
-### 🧠 Programming Languages & Scripting
+**Languages & scripting**
 
-<p align="left">
-  <a href="https://www.python.org/" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="40" height="40"/>
-  </a>
-  <a href="https://www.java.com/" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java" width="40" height="40"/>
-  </a>
-  <a href="https://docs.microsoft.com/en-us/dotnet/csharp/" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="C#" width="40" height="40"/>
-  </a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40"/>
-  </a>
-  <a href="https://www.typescriptlang.org/" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="TypeScript" width="40" height="40"/>
-  </a>
-</p>
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
 
----
+**Automation & AI**
 
-### 🌐 Frontend Development
+![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)
+![Claude](https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=anthropic&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
 
-<p align="left">
-  <a href="https://reactjs.org/" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="ReactJS" width="40" height="40"/>
-  </a>
-  <a href="https://angular.io/" target="_blank">
-    <img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="Angular" width="40" height="40"/>
-  </a>
-  <a href="https://angularjs.org/" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-original.svg" alt="AngularJS" width="40" height="40"/>
-  </a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML5" width="40" height="40"/>
-  </a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS3" width="40" height="40"/>
-  </a>
-  <a href="https://sass-lang.com/" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="SCSS" width="40" height="40"/>
-  </a>
-  <a href="https://jquery.com/" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jquery/jquery-original.svg" alt="jQuery" width="40" height="40"/>
-  </a>
-  <a href="https://getbootstrap.com/" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="Bootstrap" width="40" height="40"/>
-  </a>
-</p>
+**Data & databases**
+
+![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white)
+![SSIS](https://img.shields.io/badge/SSIS-ETL-5C2D91?style=flat-square)
+
+**Cloud & DevOps**
+
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
 ---
 
-### ⚙️ Backend & APIs
+### 🚀 Featured Projects
 
-<p align="left">
-  <a href="https://nodejs.org/" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="NodeJS" width="40" height="40"/>
-  </a>
-  <a href="https://expressjs.com/" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="ExpressJS" width="40" height="40"/>
-  </a>
-  <a href="https://www.json.org/" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/json/json-original.svg" alt="JSON" width="40" height="40"/>
-  </a>
-  <a href="https://dotnet.microsoft.com/" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original.svg" alt=".NET" width="40" height="40"/>
-  </a>
-</p>
-
----
-
-### 🗄️ Databases
-
-<p align="left">
-  <a href="https://www.mysql.com/" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="MySQL" width="40" height="40"/>
-  </a>
-  <a href="https://www.postgresql.org/" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="PostgreSQL" width="40" height="40"/>
-  </a>
-  <a href="https://www.microsoft.com/en-us/sql-server" target="_blank">
-    <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="Microsoft SQL Server" width="40" height="40"/>
-  </a>
-  <a href="https://www.oracle.com/database/" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" alt="Oracle SQL" width="40" height="40"/>
-  </a>
-</p>
-
----
-
-### ☁️ Cloud & DevOps
-
-<p align="left">
-  <a href="https://aws.amazon.com/" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="AWS" width="40" height="40"/>
-  </a>
-  <a href="https://azure.microsoft.com/" target="_blank">
-    <img src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" alt="Azure" width="40" height="40"/>
-  </a>
-  <a href="https://git-scm.com/" target="_blank">
-    <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" width="40" height="40"/>
-  </a>
-</p>
-
----
-
-### 🛠️ Systems, Tools & Frameworks
-
-<p align="left">
-  <a href="https://www.linux.org/" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="Linux" width="40" height="40"/>
-  </a>
-  <a href="https://visualstudio.microsoft.com/" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/visualstudio/visualstudio-plain.svg" alt="Visual Studio" width="40" height="40"/>
-  </a>
-</p>
-
-### 🚀 Notable Projects
-
-- [🔗 ConnectFour](https://github.com/Vision1224/ConnectFour) – Java-based implementation of the classic game using OOP and game logic.
-- [🧠 Malloc](https://github.com/Vision1224/Malloc) – A custom memory allocator in C simulating low-level memory management.
-- [🎮 Blackjack](https://github.com/Vision1224/Blackjack) – Terminal-based Blackjack game built in Java with object-oriented design.
+| Project | What it does |
+|---|---|
+| [cybersec-automation](https://github.com/Vision1224/cybersec-automation) | Security automation scripts and API integration examples |
+| [sql-optimizer-toolkit](https://github.com/Vision1224/sql-optimizer-toolkit) | SQL Server query optimization and performance analysis tools |
+| [ssis-package-validator](https://github.com/Vision1224/ssis-package-validator) | Validates SSIS packages and detects configuration errors |
+| [support-engineer-toolkit](https://github.com/Vision1224/support-engineer-toolkit) | Scripts and tools for technical support engineering |
+| [data-integration-patterns](https://github.com/Vision1224/data-integration-patterns) | ETL patterns and data integration best practices |
+| [breach-data-analyzer](https://github.com/Vision1224/breach-data-analyzer) | Python tool for analyzing password breach datasets |
 
 ---
 
@@ -150,16 +83,6 @@ Focused on Python, SQL, PowerShell, and cloud (AWS, Azure). Learning in public a
 
 ---
 
-### 🏆 GitHub Profile Trophies
-
-<p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=Vision1224&theme=gruvbox" alt="GitHub Trophies"/>
-  </a>
-</p>
-
----
-
 ### 📊 GitHub Stats
 
 <p align="center">
@@ -167,17 +90,10 @@ Focused on Python, SQL, PowerShell, and cloud (AWS, Azure). Learning in public a
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Vision1224&theme=radical" alt="GitHub Streak" />
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=Vision1224&theme=gruvbox" alt="GitHub Trophies"/>
+  </a>
 </p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Vision1224&show_icons=true&locale=en&layout=compact&theme=radical" alt="Top Languages" />
-</p>
-
----
-
-### 📈 Profile Activity
 
 ![GitHub followers](https://img.shields.io/github/followers/Vision1224?style=social)
-![GitHub User's stars](https://img.shields.io/github/stars/Vision1224?style=social)
-![Profile views](https://komarev.com/ghpvc/?username=Vision1224&label=Profile%20views&color=0e75b6&style=flat)
+![GitHub stars](https://img.shields.io/github/stars/Vision1224?style=social)
