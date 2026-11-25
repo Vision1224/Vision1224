@@ -1,108 +1,59 @@
-<h1 align="center">Hi 👋, I'm Damian Valencia</h1>
-<h3 align="center">Automation & Support Engineer · building AI agent systems with human review</h3>
+# Damian Valencia
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Open%20to-Automation%20%7C%20AI%20Ops%20%7C%20Support%20Engineering-0e75b6?style=for-the-badge" alt="Open to roles" />
-  <img src="https://komarev.com/ghpvc/?username=Vision1224&label=Profile%20views&color=0e75b6&style=for-the-badge" alt="Profile views" />
-</p>
+**Software Engineer · AI Automation · Platform Engineering**
 
----
+I build reliable software, integrations and agent-assisted workflows that reduce repetitive work, make operational problems easier to diagnose, and keep people in control of consequential decisions.
 
-### 👨‍💻 About Me
+[Portfolio](https://vision1224.github.io/) · [LinkedIn](https://www.linkedin.com/in/damian-valencia-280727b6/) · [Email](mailto:damianv2420@gmail.com)
 
-- 10 years of software experience across support engineering, automation, and cloud.
-- I build tools that keep work running reliably: data and job pipelines, security checks, service monitoring, and reporting.
-- Interested in roles where automation and customer-facing engineering meet.
+## Engineering experience
 
-### 🔭 Currently Building
+10+ years across software development, enterprise technical support, data integration, automation and systems administration.
 
-- **A multi-agent operations system:** work queues, quality gates before any outward action, daily health checks, and reports, scheduled with n8n.
-- **Human-in-the-loop AI workflows:** Claude-based agents with explicit approval steps, rest-day rules, and call and cost limits.
+| Experience | Focus |
+| --- | --- |
+| AI automation and support leadership | Led four engineers; built workflow and knowledge-base automation that saved 10+ team hours per week and supported 200+ knowledge articles. |
+| Integration engineering | C#/.NET, SSIS and SQL Server interfaces for enterprise modernization. |
+| Data engineering | Reusable processing workflows, validation, analytics and query optimization. |
+| Software engineering and operations | Production troubleshooting, APIs, application development, Linux/UNIX, documentation and incident response. |
 
-### 🌱 Currently Learning
+## Currently building — AI Agent Ecosystem
 
-![n8n](https://img.shields.io/badge/n8n-workflows-EA4B71?style=flat-square&logo=n8n&logoColor=white)
-![Playwright](https://img.shields.io/badge/Playwright-browser%20automation-2EAD33?style=flat-square&logo=playwright&logoColor=white)
-![MCP](https://img.shields.io/badge/MCP-tool%20servers-6B4FBB?style=flat-square)
-![LLM evals](https://img.shields.io/badge/LLM-evals%20%26%20cost%20tracking-412991?style=flat-square)
+My independent engineering projects explore how AI agents can use existing software efficiently, reliably and with measurable results.
 
----
+- **AgentTerminal** — working Windows prototype integrating an existing terminal engine with Claude Code sessions, token and API-equivalent cost analytics, resource monitoring, and automated tests.
+- **Multi-agent orchestration** — earlier Rust prototype coordinating six concurrent agents and recording outcomes and failed approaches in SQLite. Current work explores resource-aware scheduling, evaluation and reusable skills.
+- **AgentCareer** — local employment workflow automation; extending discovery, truthful document preparation and human-reviewed actions.
+- **Next:** shared CLI tooling, API discovery, GitHub automation, agent evaluation and platform engineering. These are roadmap items, not completed releases.
 
-### 🧰 Tech Stack
+Current ecosystem prototypes are private while I prepare sanitized demos and review licensing. I build on open-source foundations and distinguish upstream functionality from my own contributions.
 
-**Languages & scripting**
+## Selected public repositories
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
+| Project | Area |
+| --- | --- |
+| [SQL Optimizer Toolkit](https://github.com/Vision1224/sql-optimizer-toolkit) | SQL Server performance and query optimization |
+| [SSIS Package Validator](https://github.com/Vision1224/ssis-package-validator) | Data integration validation |
+| [Data Integration Patterns](https://github.com/Vision1224/data-integration-patterns) | ETL and integration patterns |
+| [Support Engineer Toolkit](https://github.com/Vision1224/support-engineer-toolkit) | Technical support tooling |
+| [Azure DevOps / AKS / Terraform pipeline](https://github.com/Vision1224/azure-devops-aks-kubernetes-terraform-pipeline) | Infrastructure and CI/CD practice |
 
-**Automation & AI**
+## Technical toolkit
 
-![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)
-![Claude](https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=anthropic&logoColor=white)
-![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+| Domain | Technologies |
+| --- | --- |
+| AI and automation | Claude Code, ChatGPT, Cursor, MCP, n8n, Python, PowerShell |
+| Software | C#, .NET, JavaScript/TypeScript, Node.js, Angular, C, Git |
+| Integration and data | REST, SOAP, GraphQL, SQL Server, PostgreSQL, SSIS, ETL, SQLite |
+| Platform and operations | AWS, Azure, Docker, Kubernetes, Terraform, Linux, GitHub Actions |
+| Support and observability | Zendesk, Salesforce, Confluence, Jira, Splunk, Databricks, New Relic |
 
-**Enterprise & frontend (professional experience)**
+B.S. Computer Science — University of Texas at El Paso.
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Oracle](https://img.shields.io/badge/Oracle-F80000?style=flat-square&logo=oracle&logoColor=white)
+## Available for work
 
-*Enterprise and frontend skills were used in professional work; the public repos here are personal projects.*
+Open to full-time and contract opportunities in AI automation, applied AI engineering, platform engineering, software development, technical integrations and technical solutions.
 
-**Data & databases**
+I can help teams automate workflows, integrate systems, improve data pipelines, build internal tools and make operational work more measurable.
 
-![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white)
-![SSIS](https://img.shields.io/badge/SSIS-ETL-5C2D91?style=flat-square)
-
-**Cloud & DevOps**
-
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-
----
-
-### 🚀 Featured Projects
-
-| Project | What it does |
-|---|---|
-| [cybersec-automation](https://github.com/Vision1224/cybersec-automation) | Security automation scripts and API integration examples |
-| [sql-optimizer-toolkit](https://github.com/Vision1224/sql-optimizer-toolkit) | SQL Server query optimization and performance analysis tools |
-| [ssis-package-validator](https://github.com/Vision1224/ssis-package-validator) | Validates SSIS packages and detects configuration errors |
-| [support-engineer-toolkit](https://github.com/Vision1224/support-engineer-toolkit) | Scripts and tools for technical support engineering |
-| [data-integration-patterns](https://github.com/Vision1224/data-integration-patterns) | ETL patterns and data integration best practices |
-| [breach-data-analyzer](https://github.com/Vision1224/breach-data-analyzer) | Python tool for analyzing password breach datasets |
-
----
-
-### 📫 Connect with Me
-
-- [LinkedIn](https://www.linkedin.com/in/damian-valencia-280727b6/)
-- Email: damianv2420@gmail.com
-
----
-
-### 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Vision1224&show_icons=true&locale=en&theme=radical" alt="GitHub Stats" />
-</p>
-
-<p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=Vision1224&theme=gruvbox" alt="GitHub Trophies"/>
-  </a>
-</p>
-
-![GitHub followers](https://img.shields.io/github/followers/Vision1224?style=social)
-![GitHub stars](https://img.shields.io/github/stars/Vision1224?style=social)
+**Principles:** reuse first · automate repetitive work · test before release · measure performance · learn continuously.
