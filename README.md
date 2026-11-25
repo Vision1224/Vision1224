@@ -41,8 +41,6 @@ Verified automatically from public GitHub metadata by [`scripts/update_profile.p
 | [**Blackjack**](https://github.com/Vision1224/Blackjack) | Original (Java, OOP) | Terminal Blackjack built in Java with object-oriented design | 2022-04-13 |
 | [**Malloc**](https://github.com/Vision1224/Malloc) | Original (C, memory allocator) | Custom memory allocator in C simulating low-level memory management | 2016-09-23 |
 | [**loan_approval_predictor**](https://github.com/Vision1224/loan_approval_predictor) | Demo (Flask + ML model) | Flask API serving a simple machine-learning loan-approval model | 2025-06-27 |
-| [**docker-fundamentals**](https://github.com/Vision1224/docker-fundamentals) | Learning repo (fork) | Docker Fundamentals | 2023-12-28 |
-| [**azure-devops-aks-kubernetes-terraform-pipeline**](https://github.com/Vision1224/azure-devops-aks-kubernetes-terraform-pipeline) | Learning repo (fork) | Provision AKS Cluster using Azure DevOps Pipelines | 2023-05-19 |
 <!-- PROJECTS:END -->
 
 ## My engineering toolkit

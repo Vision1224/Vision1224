@@ -6,6 +6,9 @@ script reads public metadata from the GitHub REST API and rewrites the block
 between the PROJECTS markers. It never changes status labels or descriptions
 that it cannot verify.
 
+Forks and archived repositories are never featured. Changes are proposed as a
+pull request by the weekly workflow; nothing is pushed to the default branch.
+
 Standard library only. Set GITHUB_TOKEN to raise the API rate limit (optional).
 """
 
@@ -27,8 +30,8 @@ FEATURED = {
     "Blackjack": ("Original (Java, OOP)", "Terminal Blackjack built in Java with object-oriented design"),
     "Malloc": ("Original (C, memory allocator)", "Custom memory allocator in C simulating low-level memory management"),
     "loan_approval_predictor": ("Demo (Flask + ML model)", "Flask API serving a simple machine-learning loan-approval model"),
-    "docker-fundamentals": ("Learning repo (fork)", "Docker fundamentals practice"),
-    "azure-devops-aks-kubernetes-terraform-pipeline": ("Learning repo (fork)", "AKS cluster provisioning with Azure DevOps pipelines"),
+    # Learning forks (docker-fundamentals, AKS/Terraform pipeline) are intentionally not featured:
+    # the block shows original engineering work first.
 }
 
 def fetch_repo(name):
@@ -51,8 +54,8 @@ def render_block():
         except Exception as exc:  # keep the previous block if the API is unavailable
             print(f"warning: could not fetch {name}: {exc}", file=sys.stderr)
             return None
-        if repo.get("private") or repo.get("archived"):
-            print(f"skip {name}: private or archived", file=sys.stderr)
+        if repo.get("private") or repo.get("archived") or repo.get("fork"):
+            print(f"skip {name}: private, archived or fork", file=sys.stderr)
             continue
         desc = ((repo.get("description") or "").strip() or fallback).replace("|", "/")
         pushed = datetime.strptime(repo["pushed_at"], "%Y-%m-%dT%H:%M:%SZ").strftime("%Y-%m-%d")

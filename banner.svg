@@ -1,23 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="t d">
   <title id="t">Damian Valencia: AI automation and platform engineering</title>
-  <desc id="d">Banner with the name and focus areas, plus a small automation pipeline with a human review gate.</desc>
+  <desc id="d">Banner with name, focus areas and a four-step automation pipeline that includes a human review gate.</desc>
   <rect width="1200" height="300" fill="#101b24"/>
-  <path d="M0 0H1200M0 299H1200" stroke="#1d2e3b" stroke-width="2"/>
-  <text x="64" y="118" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="58" font-weight="700" fill="#eef4f1">Damian Valencia</text>
-  <text x="64" y="162" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" fill="#8de5c8">AI automation · platform engineering · integrations</text>
-  <text x="64" y="206" font-family="Consolas, Menlo, monospace" font-size="20" fill="#9fb3c1">10+ years · SaaS support · data pipelines · C# · SQL</text>
-  <g font-family="Consolas, Menlo, monospace" font-size="17" text-anchor="middle">
-    <rect x="700" y="92" width="130" height="48" rx="8" fill="#17293a" stroke="#2f4a5f"/>
-    <text x="765" y="122" fill="#eef4f1">ingest</text>
-    <rect x="862" y="92" width="130" height="48" rx="8" fill="#17293a" stroke="#2f4a5f"/>
-    <text x="927" y="122" fill="#eef4f1">transform</text>
-    <rect x="1024" y="92" width="130" height="48" rx="8" fill="#17293a" stroke="#2f4a5f"/>
-    <text x="1089" y="122" fill="#eef4f1">validate</text>
-    <rect x="862" y="182" width="130" height="48" rx="8" fill="#0f2a22" stroke="#8de5c8" stroke-width="2"/>
-    <text x="927" y="212" fill="#8de5c8">human review</text>
-    <rect x="1024" y="182" width="130" height="48" rx="8" fill="#17293a" stroke="#2f4a5f"/>
-    <text x="1089" y="212" fill="#eef4f1">report</text>
+  <rect x="1" y="1" width="1198" height="298" fill="none" stroke="#2a4150" stroke-width="2"/>
+  <!-- Left column: sized so the text stays readable when GitHub scales the banner to phone width (about 0.33x). -->
+  <text x="64" y="122" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="80" font-weight="700" fill="#eef4f1">Damian Valencia</text>
+  <text x="64" y="176" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="36" fill="#8de5c8">AI automation · platform engineering</text>
+  <text x="64" y="228" font-family="Consolas, Menlo, monospace" font-size="36" fill="#b4c7d1">10+ years · SaaS · data · C#</text>
+  <!-- Right column: vertical pipeline with the human review gate highlighted. -->
+  <g font-family="Consolas, Menlo, monospace" font-size="36">
+    <rect x="760" y="40" width="376" height="48" rx="8" fill="#17293a" stroke="#2f4a5f" stroke-width="2"/>
+    <text x="784" y="74" fill="#eef4f1">1  ingest</text>
+    <rect x="760" y="104" width="376" height="48" rx="8" fill="#17293a" stroke="#2f4a5f" stroke-width="2"/>
+    <text x="784" y="138" fill="#eef4f1">2  validate</text>
+    <rect x="760" y="168" width="376" height="48" rx="8" fill="#0f2a22" stroke="#8de5c8" stroke-width="3"/>
+    <text x="784" y="202" fill="#8de5c8">3  human review</text>
+    <rect x="760" y="232" width="376" height="48" rx="8" fill="#17293a" stroke="#2f4a5f" stroke-width="2"/>
+    <text x="784" y="266" fill="#eef4f1">4  report</text>
   </g>
-  <path d="M830 116h30M992 116h30M1154 116h0M927 140v40M1089 140v40M992 206h30" stroke="#5d7a8c" stroke-width="2" fill="none"/>
-  <path d="M1089 140v40" stroke="#5d7a8c" stroke-width="2" fill="none"/>
+  <path d="M948 88v16M948 152v16M948 216v16" stroke="#5d7a8c" stroke-width="3" fill="none"/>
 </svg>
