@@ -1,0 +1,51 @@
+name: Propose profile projects refresh
+
+# Proposes README changes as a pull request. Never pushes to the default branch.
+# The weekly schedule is intentionally disabled until the owner approves automation:
+#   schedule:
+#     - cron: "17 6 * * 1"   # weekly, Monday 06:17 UTC
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: update-profile
+  cancel-in-progress: false
+
+jobs:
+  propose:
+    runs-on: ubuntu-latest
+    env:
+      BRANCH: automation/refresh-projects
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Refresh projects block
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/update_profile.py
+      - name: Open or update pull request if README changed
+        run: |
+          if git diff --quiet -- README.md; then
+            echo "No changes; no pull request needed."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -B "$BRANCH"
+          git add README.md
+          git commit -m "chore: refresh verified projects block"
+          git push --force-with-lease origin "$BRANCH"
+          if gh pr list --head "$BRANCH" --state open --json number --jq '.[0].number' | grep -q .; then
+            echo "Pull request already open; branch updated."
+          else
+            gh pr create --base "${{ github.event.repository.default_branch }}" --head "$BRANCH" \
+              --title "Refresh verified projects block" \
+              --body "Automated refresh of the public-repositories block. Metadata only (last push, description). Review the diff and merge manually."
+          fi
